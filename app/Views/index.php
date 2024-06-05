@@ -93,13 +93,13 @@ $user_status = session()->get('user_status');
             if ($user_id == null) {
             ?>
                         <li><a href="<?= base_url("login"); ?>" id="navMenu-0">
-                                <div id="navLogin" class="nav-login-menu">Login</div>
+                                <div id="navLogin" class="nav-login-menu">Login</div>adad
                             </a>
                         </li>
                         <?php
             } else {
             ?>
-                        <li><a href="<?= base_url("login"); ?>" id="navMenu-0">
+                        <li><a href="<?= base_url("logignhfvfcdn"); ?>" id="navMenu-0">
                                 <div id="navLogin" class="nav-login-menu">LogOut</div>
                             </a>
                         </li>
