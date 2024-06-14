@@ -35,7 +35,9 @@ $longArray = array("item1", "item2", "item3", "item4", "item5", "item6", "item7"
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600,1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600,1,700&display=swap"
+        rel="stylesheet">
 
     <!-- framework CSS Files -->
     <link href="assets/framework/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -60,6 +62,7 @@ $longArray = array("item1", "item2", "item3", "item4", "item5", "item6", "item7"
 
                 <a href="<?= base_url("/"); ?>" class="logo d-flex align-items-center">
                     <h1 id="navTitle">Monitoring Kelas<span class="dotlogo-primary" id="spanNavTitle">.</span>GKU</h1>
+                    adalah
                 </a>
 
                 <i id="hamburger-toggle" class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
@@ -86,7 +89,8 @@ $longArray = array("item1", "item2", "item3", "item4", "item5", "item6", "item7"
                 <div class="row justify-content-center">
                     <div class="col-lg-6 text-center">
                         <h2 data-aos="fade-down">Welcome to <span>Monitoring Kelas</span></h2>
-                        <a data-aos="fade-up" data-aos-delay="200" href="#daftar-ruangan" class="btn-get-started">Mulai</a>
+                        <a data-aos="fade-up" data-aos-delay="200" href="#daftar-ruangan"
+                            class="btn-get-started">Mulai</a>
                     </div>
                 </div>
             </div>
@@ -126,37 +130,38 @@ $longArray = array("item1", "item2", "item3", "item4", "item5", "item6", "item7"
                 <?php
                 foreach ($ruangan as $dataRuangan) {
                 ?>
-                    <div class="col-xl-4 col-md-6">
-                        <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-xl-4 col-md-6">
+                    <div class="post-item position-relative h-100" data-aos="fade-up" data-aos-delay="300">
 
-                            <div class="post-img position-relative overflow-hidden">
-                                <img src="assets/img/kelas.jpg" class="img-fluid" alt="">
-                                <span class="post-date"></span>
-                            </div>
+                        <div class="post-img position-relative overflow-hidden">
+                            <img src="assets/img/kelas.jpg" class="img-fluid" alt="">
+                            <span class="post-date"></span>
+                        </div>
 
-                            <div class="post-content d-flex flex-column">
+                        <div class="post-content d-flex flex-column">
 
-                                <h3 class="post-title">KU3 {04 20}</h3>
+                            <h3 class="post-title">KU3 {04 20}</h3>
 
-                                <div class="meta d-flex align-items-center">
-                                    <div class="d-flex align-items-center">
-                                        <i class="bi bi-book"></i> <span class="ps-2">Economics</span>
-                                    </div>
-                                    <span class="px-3 text-black-50">/</span>
-                                    <div class="d-flex align-items-center">
-                                        <i class="bi bi-clock"></i> <span class="ps-2">08.30 - 10.30</span>
-                                    </div>
+                            <div class="meta d-flex align-items-center">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-book"></i> <span class="ps-2">Economics</span>
                                 </div>
-
-                                <hr>
-
-                                <a href="#" class="readmore stretched-link"><span>Lihat</span><i class="bi bi-arrow-right"></i></a>
-
+                                <span class="px-3 text-black-50">/</span>
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-clock"></i> <span class="ps-2">08.30 - 10.30</span>
+                                </div>
                             </div>
+
+                            <hr>
+
+                            <a href="#" class="readmore stretched-link"><span>Lihat</span><i
+                                    class="bi bi-arrow-right"></i></a>
 
                         </div>
+
                     </div>
-                    <!-- End post item -->
+                </div>
+                <!-- End post item -->
                 <?php } ?>
 
             </div>
@@ -202,7 +207,8 @@ $longArray = array("item1", "item2", "item3", "item4", "item5", "item6", "item7"
     </footer>
     <!-- End Footer -->
 
-    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
 
     <div id="preloader"></div>
 
